@@ -19,6 +19,8 @@ describe('calculateFactorial', () => {
   it('should throw RangeError for negative numbers', () => {
     expect(() => calculateFactorial(-1)).toThrow(RangeError);
     expect(() => calculateFactorial(-5)).toThrow(RangeError);
+    expect(() => calculateFactorial(-0)).not.toThrow();
+    expect(calculateFactorial(-0)).toBe(1);
     expect(() => calculateFactorial(-1)).toThrow('Input must be a non-negative integer');
   });
 

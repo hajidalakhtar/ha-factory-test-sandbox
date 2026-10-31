@@ -30,3 +30,4 @@ export function calculateFactorial(n: number): number {
 
   return result;
 }
+
