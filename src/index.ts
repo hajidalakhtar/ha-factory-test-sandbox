@@ -1,0 +1,1 @@
+export { calculateFactorial } from './math';

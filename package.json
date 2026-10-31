@@ -1,0 +1,14 @@
+{
+  "name": "ha-factory-test-sandbox",
+  "version": "1.0.0",
+  "description": "Test sandbox for ha-factory autonomous issue worker",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "typescript": "^5.0.0"
+  }
+}
